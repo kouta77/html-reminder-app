@@ -24,6 +24,10 @@ li {
     justify-content: space-between;
 }
 
+li.cleared {
+    text-decoration: line-through;
+}
+
 .input-container {
     display: flex;
     justify-content: center;
@@ -66,4 +70,8 @@ li {
 }
 .restore-btn:active {
     background-color: rgb(37, 154, 27);
+}
+
+.date-holder p {
+    font-size: 12px;
 }
